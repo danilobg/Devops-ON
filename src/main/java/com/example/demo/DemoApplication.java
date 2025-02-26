@@ -51,6 +51,11 @@ public class DemoApplication {
 	String turma(){
 		return "Zumbi";
 	}
+
+	@GetMapping("/devops/teste")
+	String turma(){
+		return "DevOpsTeste";
+	}
 	
 	@GetMapping("/autoglass")
 	String autoglass(){
